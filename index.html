@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leftover Support</title>
+  <meta name="description" content="Help and support for What's Left Over? (Leftover), the local-first bill and budget app.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav><a href="./">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+
+  <header>
+    <h1>Leftover Support</h1>
+    <p>Help for <strong>What's Left Over?</strong> on iPhone and Android.</p>
+  </header>
+
+  <section class="card">
+    <h2 style="margin-top:0">Get help</h2>
+    <p>The fastest way to get help, report a bug, or suggest a feature is to open a GitHub issue. Requests are usually answered within a few days.</p>
+    <a class="button" href="https://github.com/KyleBoyer/leftover-support/issues/new/choose">Open a support request</a>
+    <a class="button" href="https://github.com/KyleBoyer/leftover-support/issues">Browse existing issues</a>
+    <p class="note"><strong>Please don't post personal or financial details.</strong> GitHub issues are public. Describe the problem without real bill names, amounts, or account info.</p>
+    <p>Helpful things to include:</p>
+    <ul>
+      <li>Your device and OS version (for example, iPhone 15, iOS 26.1)</li>
+      <li>The app version (Settings &rarr; About &rarr; Version)</li>
+      <li>What you did, what you expected, and what happened instead</li>
+      <li>A screenshot, if it helps (blur anything personal)</li>
+    </ul>
+  </section>
+
+  <h2>Frequently asked questions</h2>
+
+  <div class="card">
+    <h3>Do I need an account?</h3>
+    <p>No. Leftover has no sign-up and no server. Your data lives on your device.</p>
+  </div>
+
+  <div class="card">
+    <h3>How do I sync with another phone?</h3>
+    <p>On both phones, open Leftover and go to <strong>Settings &rarr; Share &amp; Sync &rarr; Pair or Sync Device</strong>. Leftover finds nearby phones over Bluetooth or your local Wi-Fi network. You can also pair by scanning a QR code or entering a manual URL. Once two phones are trusted, <strong>Nearby Sync</strong> can keep them up to date automatically when they're close by.</p>
+    <p>If phones can't find each other:</p>
+    <ul>
+      <li>Keep Leftover open on both phones and keep them near each other.</li>
+      <li>Allow the <strong>Bluetooth</strong> and <strong>Local Network</strong> permissions (iOS Settings &rarr; Leftover).</li>
+      <li>For Wi-Fi sync, make sure both phones are on the same network.</li>
+      <li>Try QR pairing as a fallback.</li>
+    </ul>
+    <p>Sync goes directly between your devices and is encrypted. It never passes through our servers, because there aren't any.</p>
+  </div>
+
+  <div class="card">
+    <h3>How are my backups handled?</h3>
+    <p>Leftover makes automatic encrypted backups (<strong>Settings &rarr; Cloud Backup</strong>). On iPhone they are stored in the app's storage, which is included in your device backups, and in your iCloud Drive if it's turned on. On Android they are covered by Android's Google backup. You can also make a <strong>Local Encrypted Backup</strong> and restore it with <strong>Import Data</strong> under <strong>Settings &rarr; Data</strong>.</p>
+    <p>Keep the <strong>recovery code</strong> shown in Settings &rarr; Cloud Backup somewhere safe. You'll need it to restore a backup on a phone that doesn't already have your backup key.</p>
+  </div>
+
+  <div class="card">
+    <h3>Can I lock the app?</h3>
+    <p>Yes. Under <strong>Settings &rarr; Security</strong>, turn on a PIN and Face ID, Touch ID, or fingerprint unlock. Biometric checks are handled entirely by your device. Leftover never sees your biometric data.</p>
+  </div>
+
+  <div class="card">
+    <h3>Why don't reminders show amounts?</h3>
+    <p>Reminder notifications are deliberately vague so bill names and amounts don't appear on your lock screen.</p>
+  </div>
+
+  <div class="card">
+    <h3>How do I delete my data?</h3>
+    <p>Deleting the app removes its data from your device. To also remove iCloud backups on iPhone, go to iOS Settings &rarr; [your name] &rarr; iCloud &rarr; Manage Storage and delete Leftover's data. Synced phones keep their own copies until the app is deleted from them too.</p>
+  </div>
+
+  <details class="fine">
+    <summary>Can't use GitHub?</summary>
+    <p>If you can't open an issue, you can email the developer instead. GitHub issues get a faster reply.</p>
+    <p><a href="#" id="contact">Email the developer</a></p>
+    <noscript><p>Emailing requires JavaScript. Please <a href="https://github.com/KyleBoyer/leftover-support/issues/new/choose">open an issue</a> instead.</p></noscript>
+  </details>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> &middot; &copy; 2026 Kyle Boyer
+  </footer>
+</main>
+<script src="contact.js"></script>
+</body>
+</html>
